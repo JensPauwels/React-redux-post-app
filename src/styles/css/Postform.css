@@ -1,0 +1,16 @@
+.card {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #eee; }
+  .card h1 {
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 0; }
+  .card textarea {
+    background-color: #fff;
+    min-height: 200px;
+    outline: none;
+    border: 1px solid #9d9d9d; }
+  .card .btn {
+    width: 100%;
+    background-color: #394e70; }
