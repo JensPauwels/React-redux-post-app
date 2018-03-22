@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/css/screen.css";
+import { Link } from "react-router-dom";
 
 const Header = () => (
   <header>
@@ -13,16 +14,10 @@ const Header = () => (
         </a>
         <ul className="right hide-on-med-and-down">
           <li>
-            <a href="sass.html">Sass</a>
+            <Link to="/">Add Post</Link>
           </li>
           <li>
-            <a href="badges.html">Components</a>
-          </li>
-          <li>
-            <a href="collapsible.html">Javascript</a>
-          </li>
-          <li>
-            <a href="mobile.html">Mobile</a>
+            <Link to="/about">Overview</Link>
           </li>
         </ul>
       </div>
