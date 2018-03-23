@@ -14,10 +14,14 @@ const Header = () => (
         </a>
         <ul className="right hide-on-med-and-down">
           <li>
-            <Link to="/">Add Post</Link>
+            <Link className="sidenav-close" to="/">
+              Add Post
+            </Link>
           </li>
           <li>
-            <Link to="/about">Overview</Link>
+            <Link className="sidenav-close" to="/about">
+              Overview
+            </Link>
           </li>
         </ul>
       </div>
@@ -25,16 +29,14 @@ const Header = () => (
 
     <ul className="sidenav" id="mobile-demo">
       <li>
-        <a href="sass.html">Sass</a>
+        <Link className="sidenav-close" to="/">
+          Add Post
+        </Link>
       </li>
       <li>
-        <a href="badges.html">Components</a>
-      </li>
-      <li>
-        <a href="collapsible.html">Javascript</a>
-      </li>
-      <li>
-        <a href="mobile.html">Mobile</a>
+        <Link className="sidenav-close" to="/about">
+          Overview
+        </Link>
       </li>
     </ul>
   </header>

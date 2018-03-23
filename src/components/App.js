@@ -9,7 +9,8 @@ import "../styles/css/global.css";
 
 class App extends Component {
   componentDidMount() {
-    M.Sidenav.init(document.querySelector(".sidenav"));
+    const sidenavOptions = { closeOnClick: true };
+    M.Sidenav.init(document.querySelector(".sidenav"), sidenavOptions);
   }
 
   render() {
